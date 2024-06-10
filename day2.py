@@ -1,19 +1,19 @@
 class Duck:
-    def _init_(self, name):
+    def __init__(self, name):
         self.name = name
 
     def sound(self):
         print("Wek Wek")  
 
 class Dog:
-    def _init_(self, name):
+    def __init__(self, name):
         self.name = name
 
     def sound(self):
         print("Bark Bark")
 
 class Cat:
-    def _init_(self, name):
+    def __init__(self, name):
         self.name = name
 
     def sound(self):
